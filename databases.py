@@ -64,4 +64,5 @@ def query_by_id(student_id):
         student_id=student_id).first()
     return student
 
-
+add_student("Uri", "Y2", False)
+session.commit()
